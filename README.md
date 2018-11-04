@@ -2,11 +2,11 @@
 //  A calculator that will average out your annual income based off your weekly or bi-weekly checks 
 
 
-System.out.println(" do you make weekly or bi-weekly checks? enter 'weekly' or 'biweekly' ");
+
+        System.out.println(" do you make weekly or bi-weekly checks? enter 'weekly' or 'biweekly' ");
         Scanner inputFromSystem = new Scanner(System.in);
         String biWeeklyOrWeeklyCheck = inputFromSystem.nextLine();
-
-
+        
 
         if (biWeeklyOrWeeklyCheck.equals ("biweekly")  ){
 
